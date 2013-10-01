@@ -11,3 +11,4 @@ payload_bin=bin(int(payload,4))[2:]+'0'
 print 'Binary shift   : ' + payload_bin
 print 'ASCII          : ' + ('%x' % int(payload_bin,2)).decode("hex")
 print 'ASCII reverse  : ' + ('%x' % int(payload_bin,2)).decode("hex")[::-1]
+
