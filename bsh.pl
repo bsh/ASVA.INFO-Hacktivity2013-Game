@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+#B$H
 $r=1, $i=0, $FILE='rfc5594.txt', $c=' ';
 open(FILE);
 foreach $l (<FILE>){
@@ -20,3 +21,4 @@ while($byte ne '00000000'){
 }
 
 print reverse(@text);
+
